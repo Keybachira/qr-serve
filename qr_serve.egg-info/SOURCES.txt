@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+qr_serve.py
+qr_serve.egg-info/PKG-INFO
+qr_serve.egg-info/SOURCES.txt
+qr_serve.egg-info/dependency_links.txt
+qr_serve.egg-info/entry_points.txt
+qr_serve.egg-info/requires.txt
+qr_serve.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+[project]
+name = "qr-serve"
+version = "0.1.0"
+description = "Serve uma pasta ou dev server na rede local e mostra um QR code para abrir no telemóvel"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["segno>=1.6"]
+
+[project.scripts]
+qr-serve = "qr_serve:_entrada"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["qr_serve"]
